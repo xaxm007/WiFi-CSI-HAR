@@ -1,12 +1,16 @@
 # Preprocessing
 
-- [formatat.py](./formatat.py) is used to resolve complex form of amplitude and phase (amplitude +i phase) to different column. And add label at the end of dataframe for specific activity.
+- CSI data is in complex form of Amplitude and Phase (amplitude +i phase).
 
-- [final.py](./final.py) combines different files of same activity data into a single csv file.
+- Resolve only Amplitude data of all subcarriers into columns for now.
 
-- [removesubcarrier.ipynb](./removesubcarrier.ipynb) drops the amplitude and phase column of null, pilot and guard subcarriers to result in only columns of data subcarriers.
+- Drop `Null`, `Pilot` and `Guard` subcarrier columns resulting in columns of only `Data` subcarriers. 
 
-- [Preprocess.ipynb](./Preprocess.ipynb) performs preprocessing like Outlier removal, Denoising and Phase sanitization on the data subcarriers.
+- Subcarrier Removal based on `IEEE 802.11n` protocol.
+
+- Hampel Filter for outlier removal & Discrete Wavelet Transform for denoising.
+
+- [Preprocessing](./Preprocessing.ipynb): Preprocessing using Subcarrier Removal, Outlier removal (Hampel), Denoising (DWT) and  on the data subcarriers.
 
 ## Requirements
 The requirements to run this code are:
