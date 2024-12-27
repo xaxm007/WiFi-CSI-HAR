@@ -10,7 +10,11 @@
 
 - Hampel Filter for outlier removal & Discrete Wavelet Transform for denoising.
 
-- [Preprocessing](./Preprocessing.ipynb): Preprocessing using Subcarrier Removal, Outlier removal (Hampel), Denoising (DWT) and  on the data subcarriers.
+- [Visualization](./Visualization.ipynb): Detailed Visualization for Hampel Filter & DWT.
+
+- [Preprocessing](./Preprocessing.ipynb): 
+    - Preprocessing using Subcarrier Removal, Outlier Removal (Hampel), Denoising (DWT).
+    - Creates [Processed Data](../Data/Processed/) for model training.
 
 ## Requirements
 The requirements to run this code are:
