@@ -1,4 +1,3 @@
-
 # 🎓 A Deep Learning Based Human Activity Recognition Using Wi-Fi Signals
 #### Major Project :
 
