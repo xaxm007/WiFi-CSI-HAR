@@ -15,7 +15,7 @@
     ```bash
     mcp -C 1 -N 1 -c 6/20 -m 6c:bf:6e:4c:7a:21
 
-    KuABEQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+    BhABEQAAAQBsO2uu+SEAAAAAAAAAAAAAAAAAAAAAAAAAAA==
     ```
 
 - Run [Script](./start.sh) with the `hexcode` configured, to enable monitor mode and firmware to extract CSI from specified Router's Wi-Fi signals.
