@@ -32,7 +32,7 @@ This project uses a Raspberry Pi and Wi-Fi router to collect Channel State Infor
 
 ## Repository Structure
 
-- [Documents](./Documents/): Project Report & Presentation.
+<!-- - [Documents](./Documents/): Project Report & Presentation. -->
 
 - [Implementation](./Implementation/): Source Code. `under development!!`
 
