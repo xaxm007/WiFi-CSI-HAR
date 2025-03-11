@@ -3,6 +3,9 @@
 
 This project uses a Raspberry Pi and Wi-Fi router to collect Channel State Information (CSI) data, which tracks changes in Wi-Fi signals caused by human movements, to train a model that recognizes different human activities.
 
+| ![Image 1](./Implementation/Setup/setup.png)  |
+|:---------------------------------------------:|
+
 ## Project Workflow
 
 - **Hardware**: Integrating Hardware components for data collection.
@@ -34,6 +37,6 @@ This project uses a Raspberry Pi and Wi-Fi router to collect Channel State Infor
 
 <!-- - [Documents](./Documents/): Project Report & Presentation. -->
 
-- [Implementation](./Implementation/): Source Code. `under development!!`
+- [Implementation](./Implementation/): Source Code.
 
 - [Reference Papers](./Reference%20Papers/): Researches Highly Relevant to our work.

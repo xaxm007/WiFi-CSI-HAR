@@ -1,4 +1,4 @@
-# GUI for PyTorch Models with Tkinter
+# Frontend
 
 This GUI is developed using the Tkinter library. You can integrate it with PyTorch models by modifying specific files to fit your use case.
 
@@ -7,28 +7,37 @@ This GUI is developed using the Tkinter library. You can integrate it with PyTor
 ### Modifying the Model
 To use your own PyTorch models, make the necessary changes in the following files:
 
-- [`models/inference.py`](models/inference.py) – Adjust inference logic as needed.
-- [`models/models.py`](models/models.py) – Define or modify the model architecture.
-
-### Running the Client
-The [`client.py`](client.py) script should be executed on a Raspberry Pi or any client device running the Nexmon firmware.
+- [`models/inference.py`](./Frontend/model/inference.py): Adjust inference logic as needed.
+- [`models/models.py`](./Frontend/model/models.py): Define or modify the model architecture.
 
 ### Preprocessing
-Real-time preprocessing is enabled. If you need to tweak it, modify:
+If you need to tweak it, modify: [`preprocess/preprocess.py`](./Frontend/preprocess/process.py)
 
-- [`preprocess/preprocess.py`](preprocess/preprocess.py)
+---
 
+# Backend
+The [`ClientPi.py`](./Backend/ClientPi.py) script should be executed on a Raspberry Pi or any client device running the Nexmon firmware.
+
+---
 ## Usage
-1. Ensure all dependencies are installed.
-2. Run `client.py` on the Raspberry Pi.
-3. Run `gui.py` on the receiving laptop.
+- Ensure all dependencies are installed.
+- Run `ClientPi.py` on the Raspberry Pi.
+- Run `gui.py` on the receiving laptop.
 
 ## Dependencies
 Ensure you have the following installed:
 - Python 3.x
 - Tkinter
 - PyTorch
-- Nexmon firmware (for Raspberry Pi)
+- [Nexmon firmware](../Setup/) (for Raspberry Pi)
+
+    ```bash
+        pip install -r requirements.txt
+    ```
+    or
+    ```bash
+        conda env create -f environment.yml
+    ```
 
 ## License
 This project is open-source. Feel free to modify and use it as needed.
