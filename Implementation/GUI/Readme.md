@@ -21,7 +21,7 @@ Real-time preprocessing is enabled. If you need to tweak it, modify:
 ## Usage
 1. Ensure all dependencies are installed.
 2. Run `client.py` on the Raspberry Pi.
-3. Start the GUI application.
+3. Run `gui.py` on the receiving laptop.
 
 ## Dependencies
 Ensure you have the following installed:
