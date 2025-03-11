@@ -1,18 +1,18 @@
 ## Data Format
 
-- The dataset includes activities labeled as `empty`, `fall`, `run`, `stand`, and `walk`. Each activity was performed for a maximum duration of **5 minutes** and collected from **5 individuals**.  
+- The dataset includes activities labeled as `empty`, `stand`, and `walk`. Each activity was performed for a maximum duration of **5 minutes** and collected from **4 individuals**.  
 
-- Data was collecte under both **Line-of-Sight (LoS)** and **Non-Line-of-Sight (nLoS)** scenarios.  
+- Data was collecte under **Line-of-Sight (LoS)** scenarios.  
 
-- The data was originally collected in `.pcap` format and later converted to `.csv` format. We used script made available by [cheeseBG](https://github.com/cheeseBG/pcap-to-csv).
+- The data was collected using application [WirelessEye](https://github.com/pkindt/WirelessEye).
 
-- [Raw Data](./Raw%20Data/): Raw data with no preprocessing.
+- [Raw Data](./Raw%20Data/): Collected data with default preprocessing included from referenced application in specified SimpleCSV format.
 
-- [Dataset](./Dataset/): Preprocessed data containing only `amplitude` data with respective labels for training the model.
+- [Dataset](./Dataset/): Preprocessed data containing `timestamp`, `MAC address` `amplitude` & ' `phase` data with respective labels in column-wise subcarrier format for training the model.
 ---
 ### ⚠ Important:
  - The provided dataset is intended exclusively for **demonstration purposes**, enabling users to run model training and understand the preprocessing pipeline in this project. 
 
  - It is not intended for performance benchmarking.
 
- - The dataset contains CSI data before preprocessing.
+ - `The dataset will be made available upon request via Email.`

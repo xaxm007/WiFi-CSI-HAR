@@ -19,21 +19,12 @@ This project uses a Raspberry Pi and Wi-Fi router to collect Channel State Infor
 
 - **UI**: Developing an application integrating all the components.
 
-    ```mermaid
-    graph TD
-        A[Hardware Setup] --> B[CSI Data Collection]
-        B --> C[Preprocessing]
-        C --> D[Visualization]
-        D --> E[Feature Extraction and Annotation]
-        E --> F[Model Training]
-        F --> G[UI]
-    ```
 ---
 
 ## Repository Structure
 
 <!-- - [Documents](./Documents/): Project Report & Presentation. -->
 
-- [Implementation](./Implementation/): Source Code. `under development!!`
+- [Implementation](./Implementation/): Source Code.
 
 - [Reference Papers](./Reference%20Papers/): Researches Highly Relevant to our work.
