@@ -28,3 +28,5 @@ This project uses a Raspberry Pi and Wi-Fi router to collect Channel State Infor
 - [Implementation](./Implementation/): Source Code.
 
 - [Reference Papers](./Reference%20Papers/): Researches Highly Relevant to our work.
+
+- [SXT2](https://github.com/xaxm007/WiFi-CSI-HAR/tree/sxt2): v1.0 of this repository using MikroTik SXT2 router and python GUI Implementation with different preprocessing techniques and PyTorch model training.
