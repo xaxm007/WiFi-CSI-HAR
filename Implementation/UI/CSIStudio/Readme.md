@@ -16,6 +16,6 @@ Qt GUI for PC to connect to Raspberry Pi via TCP and record CSI data and run rea
 
 2. In the tab _visualization_, click _connect_. Upon success, the text in the button will change to "connected" and data is being streamed from the Raspberry Pi.
 
-3. In the _settings->recording_, select _static filename_ to rename different csv files to store and select _Simple CSV_ format similar to this project's data recording format. The [fileFormats](./fileFormats.pdf) document can be accessed from the given link.
+3. In the _settings->recording_, select _static filename_ to rename different csv files to store and select _Simple CSV_ format similar to this project's data recording format. The [fileFormats](../../../Reference%20Papers/Related%20Works/fileFormats.pdf) document can be accessed from the given link.
 
 5. In the tab, _real-time classification_ to run classifier load the trained model in [realtime.py](./realtime.py) file.
