@@ -22,7 +22,7 @@ This project uses a Raspberry Pi and Wi-Fi router to collect Channel State Infor
 
 <!-- - [Documents](./Documents/): Project Report & Presentation. -->
 
-- [Implementation](./Implementation/): Source Code.
+- [Implementation](./Implementation/): Source Code and Usage Instruction.
 
 - [Reference Papers](./Reference%20Papers/): Researches Highly Relevant to our work.
 
