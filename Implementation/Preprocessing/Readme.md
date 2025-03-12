@@ -1,20 +1,16 @@
 # Preprocessing
 
-- CSI data is in complex form of Amplitude and Phase (amplitude +i phase).
+- CSI data is recorded in SimpleCSV format using [WirelessEye](https://github.com/pkindt/WirelessEye).
 
-- Resolve only Amplitude data of all subcarriers into columns for now.
+- Nulling `Null` and `Guard` subcarrier columns via the reference application, resulting in columns of only `Data` and `Pilot` subcarriers containing actual data. 
 
-- Drop `Null`, `Pilot` and `Guard` subcarrier columns resulting in columns of only `Data` subcarriers. 
+- Subcarrier Nulling based on `IEEE 802.11ac` protocol for `80 MHz bandwidth`.
 
-- Subcarrier Removal based on `IEEE 802.11n` protocol.
+- [Conversion](./conversion.py): Transforms data file in column-wise subcarrier data format for model training stored in [Dataset](../Data/Dataset/) folder.
 
-- Hampel Filter for outlier removal & Discrete Wavelet Transform for denoising.
+- [Preprocessing](./Preprocessing.ipynb): Visualization for Hampel Filter & DWT based on [v1.0](https://github.com/xaxm007/WiFi-CSI-HAR/tree/SXT2) code after Subcarrier Removal for filter output comparison and data analysis. 
 
-- [Visualization](./Visualization.ipynb): Detailed Visualization for Hampel Filter & DWT.
-
-- [Preprocessing](./Preprocessing.ipynb): 
-    - Preprocessing using Subcarrier Removal, Outlier Removal (Hampel), Denoising (DWT).
-    - Creates [Processed Data](../Data/Processed/) for model training.
+- [Visualization](./Visualization.ipynb): Detailed Visualization for Hampel & DWT.
 
 ## Requirements
 The requirements to run this code are:
