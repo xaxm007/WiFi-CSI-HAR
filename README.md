@@ -7,8 +7,7 @@ This project uses a Raspberry Pi and Wi-Fi router to collect Channel State Infor
 |:---------------------------------------------:|
 
 ## Demo Video 
-[Demo](https://youtube.com/shorts/i1IyGovJwDo?si=px6QW7QejZuBewC6)
-This experiment was done in closed environments with only one person in the Wi-Fi range. 
+This [Demo](https://youtube.com/shorts/i1IyGovJwDo?si=px6QW7QejZuBewC6) was recorded in closed environments with only one person in the Wi-Fi range. 
 
 ## Project Workflow
 
